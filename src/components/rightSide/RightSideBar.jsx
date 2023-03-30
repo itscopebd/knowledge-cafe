@@ -3,7 +3,7 @@ import React from 'react';
 const RightSideBar = () => {
     return (
         <div>
-           <h1>I am a Rig</h1> 
+           <h1>I am a Right Side Bar</h1> 
         </div>
     );
 };
