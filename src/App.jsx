@@ -1,9 +1,10 @@
 
 import './App.css'
+import Home from './components/home/Home';
 function App() {
   return (
     <div className="App">
-      <h1 className='text-2xl font-bold'>ZRofiq</h1>
+      <Home></Home>
     </div>
   )
 }
