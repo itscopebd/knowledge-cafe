@@ -16,7 +16,7 @@ const Home = () => {
     }
 
     const [title, setTile] = useState([]);
-    const bookMark = (id,blogTitle) => {
+    const bookMark = (blogTitle) => {
 
       const newtitle=[...title,blogTitle];
          title.find((value) => {
