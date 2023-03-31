@@ -9,7 +9,7 @@ const Home = () => {
            <header>
             <Header></Header>
             </header> 
-            <main>
+            <main className='flex'>
                 <Blog></Blog>
                 <RightSideBar></RightSideBar>
             </main>

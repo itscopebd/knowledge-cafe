@@ -10,7 +10,7 @@ const Blog = () => {
     }, []);
 
     return (
-        <div>
+        <div className='w-8/12'>
             {
                 data.map(singleBlog=><SingleBlog singleBlog={singleBlog} key={singleBlog.id}></SingleBlog>)
             }
