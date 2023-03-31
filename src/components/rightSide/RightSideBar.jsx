@@ -2,6 +2,7 @@ import React from 'react';
 
 const RightSideBar = (props) => {
     const{title,readTime,totalBookMark,}=props;
+    console.log(title)
     return (
         <div className='w-4/12 ml-5'>
            <h1 className='text-primary p-3 border-2 border-slate-300 rounded-lg'>Spent time on read : {readTime} min</h1>

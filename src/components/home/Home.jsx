@@ -16,13 +16,14 @@ const Home = () => {
     }
 
     const [title, setTile] = useState([]);
-    const bookMark = (blogTitle) => {
+    const bookMark = (id,blogTitle) => {
 
       const newtitle=[...title,blogTitle]
         setTile(newtitle);
         setTotalBookMark(totalBookMark + 1);
 
     }
+   console.log(title)
 
     return (
         <>
