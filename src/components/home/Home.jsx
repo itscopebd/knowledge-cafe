@@ -19,15 +19,13 @@ const Home = () => {
     const bookMark = (id,blogTitle) => {
 
       const newtitle=[...title,blogTitle];
-      const unique = title.filter((value) => {
-
+         title.find((value) => {
         if(value===blogTitle){
-            toast("Wow so easy!")
+            toast("You have read this blog before!")
         }
       });
         setTile(newtitle);
         setTotalBookMark(totalBookMark + 1);
-      
     }
 
 
@@ -36,8 +34,8 @@ const Home = () => {
             <header>
                 <Header></Header>
             </header>
-            <main>
-                <div className='flex'>
+            <main className='w-12/12 md:w-10/12 mx-auto'>
+                <div className='w-full md:flex'>
                     <Blog readTimeHandle={readTimeHandle} bookMark={bookMark}></Blog>
                     <RightSideBar readTime={readTime} title={title} totalBookMark={totalBookMark}></RightSideBar>
                 </div>

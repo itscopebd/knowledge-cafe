@@ -9,7 +9,7 @@ const SingleBlog = (props) => {
             <img className='w-full rounded-xl' src={blogCoverImage} alt="" />
             <div className='flex my-5'>
                 <div className='w-1/12'>
-                    <img className='w-full h-full rounded-full' src={authorImage} alt="" />
+                    <img className='w-full md:h-full rounded-full' src={authorImage} alt="" />
                 </div>
                 <div className='flex justify-between w-11/12 items-center'>
                     <div className='ms-5'>

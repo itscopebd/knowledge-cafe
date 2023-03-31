@@ -6,7 +6,7 @@ const RightSideBar = (props) => {
 
     return (
 
-        <div className='w-4/12 ml-5'>
+        <div className='w-12/12 md:w-4/12 md:ml-5'>
        
             <ToastContainer />
            <h1 className='text-primary p-3 border-2 border-slate-300 rounded-lg'>Spent time on read : {readTime} min</h1>
